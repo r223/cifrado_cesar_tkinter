@@ -79,13 +79,13 @@ boton_encriptar = Button(ventana, text='  Encriptar ', command=encriptar)
 boton_encriptar.configure(
     font=('Helvetica', 28), bg='gray12', highlightbackground='gold', fg='gold'
 )
-boton_encriptar.grid(row=6, columnspan=1, column=0, sticky='NESW')
+boton_encriptar.grid(row=6, column=0, sticky='NESW')
 
 boton_desencriptar = Button(ventana, text='Desencriptar', command=desencriptar)
 boton_desencriptar.configure(
     font=('Helvetica', 28), bg='gray12', highlightbackground='dodger blue', fg='dodger blue'
 )
-boton_desencriptar.grid(row=6, columnspan=1, column=1, sticky='NESW')
+boton_desencriptar.grid(row=6, column=1, sticky='NESW')
 
 # espaciador vacio
 Frame(ventana, bg='gray20').grid(row=7, column=0 ,columnspan=2,pady=10)
